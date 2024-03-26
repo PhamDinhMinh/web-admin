@@ -1,6 +1,7 @@
 import { LinkProps, default as NextLink } from "next/link";
 import { ForwardRefRenderFunction, ReactNode, forwardRef } from "react";
-import useChangeLocale from "src/hooks/useChangeLocale";
+
+import useChangeLocale from "@/hooks/useChangeLocale";
 
 export type TLinkProps = LinkProps & {
   className?: string;
