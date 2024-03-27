@@ -41,6 +41,7 @@ export default function Page() {
         showSorterTooltip={false}
         size="large"
         dataSource={listUser}
+        className="sticky-pagination"
         columns={[
           { ...picture, width: 88, fixed: true },
           { ...nameCombined1, width: 300 },
